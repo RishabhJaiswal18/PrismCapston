@@ -95,3 +95,5 @@ The console can be vibe-coded or AI-assisted. It does not need to be visually co
 ## Correctness Notes
 
 The pack is designed to expose the classic gateway failure modes: buffered "streaming", read-then-write rate limiters that over-admit under concurrency, cost computed from client-declared tokens, caches shared across tenants, and gateways that hang when a provider goes silent. The smoke test, load test, and live failure injection exist so you can prove your implementation does not have them.
+
+
